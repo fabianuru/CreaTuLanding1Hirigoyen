@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+    background-color: black;
+    color: white;
+  
+}
+
+.navbar {
+  width: 100%;
+  height: auto;
+  padding: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  width: 33%;
+  display: flex;
+  justify-content: space-around;
+  list-style-type:none
+}
+
+.itemlistcontainer {
+  display: flex;
+  justify-content: center;
+}
